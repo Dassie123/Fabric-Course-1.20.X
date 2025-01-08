@@ -2,6 +2,9 @@ package net.petrus.mccourse;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.petrus.mccourse.block.ModBlocks;
+import net.petrus.mccourse.item.ModItemGroup;
+import net.petrus.mccourse.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +14,10 @@ public class MCCourseMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroup.registerItemGroups();
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
