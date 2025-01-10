@@ -18,6 +18,8 @@ public class ModItemGroup {
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
                         entries.add(ModItems.METAL_DETECTOR);
+                        entries.add(ModItems.CAULIFLOWER);
+                        entries.add(ModItems.PEAT_BRICK);
 
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
@@ -26,6 +28,8 @@ public class ModItemGroup {
                         entries.add(ModBlocks.END_STONE_PINK_GARNET_ORE);
                         entries.add(ModBlocks.NETHER_PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
+
+                        entries.add(ModBlocks.SOUND_BLOCK);
 
                     }).build());
 
