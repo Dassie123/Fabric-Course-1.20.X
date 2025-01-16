@@ -1,4 +1,4 @@
-package net.petrus.mccourse.item.custom;
+package net.petrus.mccourse.item;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;

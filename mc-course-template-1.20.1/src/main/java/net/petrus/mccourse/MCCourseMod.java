@@ -3,6 +3,7 @@ package net.petrus.mccourse;
 import net.fabricmc.api.ModInitializer;
 
 import net.petrus.mccourse.block.ModBlocks;
+import net.petrus.mccourse.enchantment.ModEnchantments;
 import net.petrus.mccourse.item.ModItemGroup;
 import net.petrus.mccourse.item.ModItems;
 import net.petrus.mccourse.util.ModRegistries;
@@ -16,11 +17,10 @@ public class MCCourseMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
 		ModRegistries.registerModStuffs();
+		ModEnchantments.registerModEnchantments();
 
 	}
 }
